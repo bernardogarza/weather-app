@@ -1,1 +1,32 @@
 @import "_variables.scss";
+
+body, html {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(0,212,255,1) 68%, rgba(254,255,184,1) 100%);
+}
+
+.night {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 15%, rgba(11,10,128,1) 83%, rgba(69,58,148,1) 100%);
+}
+
+#container {
+    background-color: rgba(221, 221, 221, 0.39);
+    margin: 0 auto;
+    width: 380px;
+    height: 780px;
+    border-radius: 8px;
+}
+
+#icon img {
+    margin: 0 auto;
+    display: block;
+}
+
