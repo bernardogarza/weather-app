@@ -5,6 +5,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
 }
 
 .day {
@@ -29,4 +30,32 @@ body, html {
     margin: 0 auto;
     display: block;
 }
+
+#temp p {
+    margin: 0 0;
+    padding-right: 30px;
+    display: block;
+    text-align: right;
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#time, #location {
+    display: block;
+    text-align: center;
+}
+
+#time {
+    font-size: 59px;
+    padding-top: 100px;
+}
+
+#location {
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
 
