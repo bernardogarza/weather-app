@@ -1,7 +1,7 @@
-let time = () => {
-    let time = new Date();
-    document.getElementById('local-time').innerHTML = time.toLocaleTimeString();
+const timeNow = () => {
+  const time = new Date()
+  document.getElementById('local-time').innerHTML = time.toLocaleTimeString()
 }
-setInterval(time, 1000);
+setInterval(timeNow, 1000)
 
-export { time };
+export { timeNow }
