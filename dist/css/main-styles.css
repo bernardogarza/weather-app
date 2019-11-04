@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,9 +22,10 @@ body, html {
 
 #icon img {
   margin: 0 auto;
-  display: block; }
+  display: block;
+  padding: 25px 0; }
 
-#temp p {
+#temp .degrees {
   margin: 0 0;
   padding-right: 30px;
   display: block;
@@ -33,16 +34,27 @@ body, html {
   font-weight: bold;
   font-size: 48px; }
 
-#time, #location {
+#weather-description, #location {
   display: block;
   text-align: center; }
 
-#time {
-  font-size: 59px;
+#weather-description {
+  font-size: 38px;
   padding-top: 100px; }
 
 #location {
-  padding-top: 120px;
+  padding-top: 100px;
   font-weight: bold;
   font-size: 32px; }
+
+.min-max {
+  margin: 0 0;
+  padding-right: 30px;
+  padding-top: 10px;
+  display: block;
+  text-align: right;
+  color: #1b1b1b;
+  font-weight: lighter;
+  font-size: 34px;
+  white-space: pre; }
 

@@ -1,6 +1,11 @@
 let lon, lat;
+let kelvin = 273.15;
+let iconImage = document.querySelector('.icon-image');
 let city = document.querySelector('.city');
 let degrees = document.querySelector('.degrees');
+let minMax = document.querySelector('.min-max')
+let weatherDescription = document.querySelector('#weather-description');
+let changeTemp = document.querySelector('.change-temp');
 
 let api = () => {
     if(navigator.geolocation){
@@ -14,14 +19,19 @@ let api = () => {
                 })
                 .then(data => {
                     console.log(data);
-                    console.log(data.main.temp);
-                    console.log(data.name);
-                    const {temp} = data.main
-                    degrees.textContent = temp;
-                    city.textContent = `${data.name}, ${data.sys.country}`
+                    const {temp, temp_max, temp_min} = data.main
+                    degrees.innerHTML = `${Math.floor(temp - kelvin)}°C`;
+                    minMax.innerHTML = `Min: ${Math.floor(temp_min-kelvin)}°C<br>`
+                    minMax.innerHTML += `Max: ${Math.floor(temp_max-kelvin)}°C`
+                    weatherDescription.innerHTML = data.weather[0].description
+                    city.innerHTML = `${data.name}, ${data.sys.country}`
+                    iconImage.src = `static/${data.weather[0].icon}.png`
+                    const farenheit = Math.floor(((temp - kelvin) * 9/5) + 32);
+                    changeTemp.innerText = 'C'
                 })
         });
     }
-}
+};
+
 
 export { api };
