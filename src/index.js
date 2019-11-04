@@ -1,4 +1,5 @@
 import { api } from './partials/api'
+import { time } from './partials/time'
 
 import './style/main.scss';
 
@@ -10,6 +11,9 @@ const images = importAll(require.context('./static/', false, /\.(png|jpe?g|svg)$
 
 window.addEventListener('load', ()=> {
     api();
+    time();
 });
+
+
 
 

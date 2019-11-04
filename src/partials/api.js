@@ -28,6 +28,19 @@ let api = () => {
                     iconImage.src = `static/${data.weather[0].icon}.png`
                     const farenheit = Math.floor(((temp - kelvin) * 9/5) + 32);
                     changeTemp.innerText = 'C'
+                    changeTemp.addEventListener('click', (e) => {
+                        if(e.target.innerText === 'C'){
+                            changeTemp.innerHTML = 'F';
+                            degrees.innerHTML = `${farenheit}°F`;
+                            minMax.innerHTML = `Min: ${Math.floor(((temp_min-kelvin) * 9/5) + 32)}°F<br>`
+                            minMax.innerHTML += `Max: ${Math.floor(((temp_max-kelvin) * 9/5) + 32)}°F`        
+                        } else if(e.target.innerText === 'F'){
+                            changeTemp.innerText = 'C';
+                            degrees.innerHTML = `${Math.floor(temp - kelvin)}°C`;
+                            minMax.innerHTML = `Min: ${Math.floor(temp_min-kelvin)}°C<br>`
+                            minMax.innerHTML += `Max: ${Math.floor(temp_max-kelvin)}°C`
+                        }
+                    });
                 })
         });
     }
