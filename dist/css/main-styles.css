@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif; }
+
+.day {
+  background: white;
+  background: linear-gradient(0deg, white 15%, #00d4ff 68%, #feffb8 100%); }
+
+.night {
+  background: black;
+  background: linear-gradient(0deg, black 15%, #0b0a80 83%, #453a94 100%); }
+
+#container {
+  background-color: rgba(221, 221, 221, 0.39);
+  margin: 0 auto;
+  width: 380px;
+  height: 780px;
+  border-radius: 8px; }
+
+#icon img {
+  margin: 0 auto;
+  display: block; }
+
+#temp p {
+  margin: 0 0;
+  padding-right: 30px;
+  display: block;
+  text-align: right;
+  color: #1b1b1b;
+  font-weight: bold;
+  font-size: 48px; }
+
+#time, #location {
+  display: block;
+  text-align: center; }
+
+#time {
+  font-size: 59px;
+  padding-top: 100px; }
+
+#location {
+  padding-top: 120px;
+  font-weight: bold;
+  font-size: 32px; }
+
