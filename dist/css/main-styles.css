@@ -43,7 +43,7 @@ body, html {
   padding-top: 100px; }
 
 #location {
-  padding-top: 100px;
+  padding-top: 80px;
   font-weight: bold;
   font-size: 32px; }
 
@@ -57,4 +57,17 @@ body, html {
   font-weight: lighter;
   font-size: 34px;
   white-space: pre; }
+
+.change-temp {
+  width: 380px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.377);
+  cursor: pointer; }
+
+#local-time {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px; }
 
