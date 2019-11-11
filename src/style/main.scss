@@ -29,7 +29,7 @@ body, html {
 #icon img {
     margin: 0 auto;
     display: block;
-    padding: 25px 0
+    padding: 0px 0
 }
 
 #temp .degrees {
@@ -81,7 +81,27 @@ body, html {
 
 #local-time {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 60px;
     font-size: 32px;
 }
 
+.search-box {
+    input {
+        border: none;
+        border-bottom: 1px solid blue;
+        width: 100%;
+        background: none;
+        margin-bottom: 5px;
+    }
+    input:focus {
+        background: rgba(255, 255, 255, 0.61);
+    }
+    button {
+        width: 100%;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.562);
+        border-radius: 4px;
+        border: 0;
+        padding: 4px;
+    }
+}
