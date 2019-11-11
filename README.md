@@ -20,4 +20,4 @@ Bernardo Garza - [bernardo.g.landa@gmail.com](bernardo.g.landa@gmail.com)
 5. Open [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 
-*Live Demo:* https://rawcdn.githack.com/bernardogarza/weather-app/9c569567f771b4b5615a57d8a7999f380b8c4cb8/dist/index.html
+*Live Demo:* https://rawcdn.githack.com/bernardogarza/weather-app/57816c275e40bb8b33063fcb209414e243a586c9/dist/index.html
