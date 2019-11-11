@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>What's the Weather?</title>
 </head>
-<body class="night">
+<body class="day">
     <div id="container">
         <div id="units">
             <button class="change-temp"></button>
         </div>
+        <form name="search-form" class="search-box">
+            <input type="text" name="search-city" id="city" placeholder="Enter your city" autofocus><br>
+            <button type="button" class="submit-city" form="search-box" value="Submit">Search</button>
+        </form>
         <div id="icon">
             <img src="static/unknown.png" class="icon-image">
         </div>
