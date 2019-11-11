@@ -1,12 +1,13 @@
-let timeObj = new Date();
-let hour = timeObj.getHours();
-let container  = document.querySelector('.day')
+/* eslint-disable import/prefer-default-export */
+const timeObj = new Date();
+const hour = timeObj.getHours();
+const container = document.querySelector('.day');
 
-let timeStyle = () => {
-    if (hour > 18){
-        container.classList.remove('day')
-        container.classList.add('night')
-    }
-}
+const timeStyle = () => {
+  if (hour > 18) {
+    container.classList.remove('day');
+    container.classList.add('night');
+  }
+};
 
 export { timeStyle };
