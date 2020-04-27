@@ -10,6 +10,12 @@ This is a simple weather app that let you use your current city to know its weat
 
 > https://rawcdn.githack.com/bernardogarza/weather-app/57816c275e40bb8b33063fcb209414e243a586c9/dist/index.html
 
+## Screenshot
+
+![Weather App](weather-app.png?raw=true "Weather App")
+
+#
+
 ### Instructions:
 
 
