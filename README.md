@@ -1,11 +1,14 @@
 # Weather App
 
-This a project for the Microverse main curriculum
+This is a simple weather app that let you use your current city to know its weather.
 
 ### Author:
 
-Bernardo Garza - [bernardo.g.landa@gmail.com](bernardo.g.landa@gmail.com)
+**[Bernardo Garza Landa](https://github.com/bernardogarza)** - bernardo.g.landa@gmail.com
 
+## Live Demo
+
+> https://rawcdn.githack.com/bernardogarza/weather-app/57816c275e40bb8b33063fcb209414e243a586c9/dist/index.html
 
 ### Instructions:
 
@@ -20,4 +23,3 @@ Bernardo Garza - [bernardo.g.landa@gmail.com](bernardo.g.landa@gmail.com)
 5. Open [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 
-*Live Demo:* https://rawcdn.githack.com/bernardogarza/weather-app/57816c275e40bb8b33063fcb209414e243a586c9/dist/index.html
