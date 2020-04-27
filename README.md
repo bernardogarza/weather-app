@@ -1,6 +1,6 @@
 # Weather App
 
-This is a simple weather app that let you use your current city to know its weather.
+This is a simple weather app that lets you use your current city to know its weather.
 
 ### Author:
 
