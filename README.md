@@ -4,7 +4,7 @@ This is a simple weather app that lets you use your current city to know its wea
 
 ### Author:
 
-**[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com
+**[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com - [Portfolio](https://bernardogarza.me) - [LinkedIn](https://www.linkedin.com/in/bernardo-g-landa/)
 
 ## Live Demo
 
