@@ -1,6 +1,6 @@
 # Weather App
 
-This project was created using Vanilla JS and WebPack. It's a simple weather app that lets you use your current city to know its weather, extracting the information from an API.
+This project was created using Vanilla JS and WebPack. It's a simple weather app that lets you use your current city to know its weather utilizing an API.
 
 ### Author:
 
